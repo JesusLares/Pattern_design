@@ -1,0 +1,53 @@
+/* 
+# Clase basica
+class Singleton {
+
+  constructor() {
+    if (Singleton.instance) return Singleton.instance;
+
+    Singleton.instance = this;
+  }
+}
+
+const singleton = new Singleton(); 
+*/
+
+// Ejemplo
+class WeekDays {
+  daysEs = [
+    "Lunes",
+    "Martes",
+    "Miercoles",
+    "Jueves",
+    "Viernes",
+    "Sabado",
+    "Domingo"
+  ];
+  daysEn = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ];
+
+  constructor(lang) {
+    this.lang = lang;
+
+    if (WeekDays.instance) return WeekDays.instance;
+
+    WeekDays.instance = this;
+  }
+
+  getDays() {
+    return this.lang === "en" ?
+      this.daysEn : this.daysEs;
+  }
+}
+
+const weekDays = new WeekDays("en");
+const weekDays2 = new WeekDays();
+console.log(weekDays.getDays());
+console.log(weekDays2.getDays());
