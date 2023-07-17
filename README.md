@@ -6,7 +6,7 @@ Los patrones de diseño (design patterns) son soluciones habituales a problemas 
 
 ## Author
 
-**JesusLares**
+**Jesús Lares**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jesusLares-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/jesusLares)
 <br />
@@ -19,9 +19,9 @@ Los patrones de diseño (design patterns) son soluciones habituales a problemas 
 
 Este repositorio contiene varios patrones de diseños hechos en javascript y typescript.
 
-Cada patron contiene su propio archivo README donde se explica la funcionalidad de este y como funciona.
+Cada patrón contiene su propio archivo README donde se explica la funcionalidad de este y como funciona.
 
-**Nota: Este proyecto se realizo para servir como aprendizaje e investigación de los distintos patrones, no es usado para producción**
+**Nota: Este proyecto se realizó para servir como aprendizaje e investigación de los distintos patrones, no es usado para producción**
 
 ### Patrones de diseño en el repositorio
 
@@ -37,17 +37,17 @@ En este repositorio se pueden encontrar los siguientes patrones de diseño:
 - [State.](./state)
 - [Strategy.](./strategy)
 
-## Instalacion
+## Instalación
 
-Para este repositorio se tienen dos opciones de instalacion las cuales surgen de la distincion de si quieres ver los ejemplos en javascript o typescript.
+Para este repositorio se tienen dos opciones de instalación las cuales surgen de la distincion de si quieres ver los ejemplos en javascript o typescript.
 
 **Typescript**:
 
-Para correr los programas de typescript se require hacer la instalacion de ts-node por lo tanto en la carpeta principal de pattern_design corre el comando `npm install`. Posterior a esto, simplemente corre el comando ts agregando al final el archivo de typescript que se quiere correr `npm run ts .\state\ts\main.ts`. Se veran los mensajes directamente en la consola donde corras el comando.
+Para correr los programas de typescript se requiere hacer la instalación de ts-node por lo tanto en la carpeta principal de pattern_design corre el comando `npm install`. Posterior a esto, simplemente corre el comando ts agregando al final el archivo de typescript que se quiere correr `npm run ts .\state\ts\main.ts`. Se verán los mensajes directamente en la consola donde corras el comando.
 
 **Javascript**:
 
-Para correr los programas de javascript se require abrir el archivo html en el navegador esto se puede hacer de distintas maneras, yo recomiendo usar la extension de `Live Server` de vsCode. Posterior a esto, se veran los mensajes directamente en la consola del navegador, algunos html no tienen elementos por lo cual se puede llegar a ver la pagina en blanco.
+Para correr los programas de javascript se requiere abrir el archivo html en el navegador esto se puede hacer de distintas maneras, yo recomiendo usar la extensión de `Live Server` de vsCode. Posterior a esto, se verán los mensajes directamente en la consola del navegador, algunos html no tienen elementos por lo cual se puede llegar a ver la página en blanco.
 
 ## Contacto
 
